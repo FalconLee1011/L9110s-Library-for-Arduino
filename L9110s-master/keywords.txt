@@ -1,0 +1,12 @@
+##################################
+  L9110s library by FalconXCLi
+##################################
+
+L9110s	KEYWORD1
+
+motor	KEYWORD2
+forward	KEYWORD2
+backward KEYWORD2
+left KEYWORD2
+right KEYWORD2
+STOP KEYWORD2
