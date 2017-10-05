@@ -6,4 +6,4 @@ Author - FalconXCLi  |  www.xiaocao.taipei  |
 License - Apache 2.0
 
 
-connect AIA to D5, AIB to 9, BIA to 10, BIB to 6.
+connect Motor A to pin 5 and pin 9, connect Motor B to pin 10 and pin 6.
