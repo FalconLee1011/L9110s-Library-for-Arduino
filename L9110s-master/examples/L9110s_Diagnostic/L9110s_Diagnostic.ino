@@ -1,4 +1,7 @@
 //L9110s_Diagnostic By FalconXCLi
+#include <L9110s.h>
+
+L9110s car;
 
 int XIX; //AIA = 9 AIB = 5
 int YIY; //BIA = 10 BIB = 6
@@ -18,23 +21,23 @@ void loop(){
 
     switch(input){
       case '1':
-        forward(255);
+        car.forward(255);
         Serial.println("Forward");
         break;
       case '2':
-        backward(255);
+        car.backward(255);
         Serial.println("Backward");
         break;
       case '3':
-        left(255);
+        car.left(255);
         Serial.println("Left");
         break;
       case '4':
-        right(255);
+        car.right(255);
         Serial.println("Right");
         break;
       case '5':
-        STOP();
+        car.STOP();
         Serial.println("Stopped");
         break;
       case '6':
