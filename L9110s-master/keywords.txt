@@ -1,5 +1,5 @@
 ##################################
-  L9110s library by FalconXCLi
+   L9110s library by FalconXCLi
 ##################################
 
 L9110s	KEYWORD1
